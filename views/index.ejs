@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web сервер</title>
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body class="bg">
+    <div class="main">
+        <h1>Web сервер</h1>
+        <h2>Разработал: Можиловский А.С.</h2>
+        <form action="" method="post">
+            <fieldset>
+                <legend>Введите данные клиента:</legend>
+                <p>ФИО:</p>
+                <p><input type="text" id="name" name="name" required
+                    minlength="4" maxlength="100" size="20"></p>
+                <p>Номер телефона:</p>
+                <p><input type="number" size="20" name="number" min="0" max="99999999999999999" value="+375(XX)YYYYYYY"></p>
+                <p><input type="submit" value="Отправить">
+                    <input type="reset" value="Очистить"></p>
+            </fieldset>
+        </form>
+    </div>
+    <div class="h2">
+        <h2 ><%= elementID %></h2>
+    </div> 
+</body>
+</html>

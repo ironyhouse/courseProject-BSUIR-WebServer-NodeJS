@@ -1,0 +1,14 @@
+.bg {
+    background: linear-gradient(to top left, purple, crimson, orangered, gold) no-repeat 100%;
+    width: 100%;
+    height: 1024px;
+    padding: 0px;
+}
+.main {
+    width: 800px;
+    align-content: center;
+    margin: 0 auto;
+}
+.h2 {
+    text-align: center; 
+}
